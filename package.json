@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build client/web.html && node util.js"
+    "push": "parcel build --no-minify --no-cache --no-source-maps client/web.html && node util.js && clasp push"
   },
   "keywords": [],
   "author": "",
